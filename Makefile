@@ -15,4 +15,4 @@ queue_from_stacks.o: queue_from_stacks.c queue_from_stacks.h
 	$(CC) -c queue_from_stacks.c
 
 clean:
-	rm -f *.o test_stack test_queue test_queue_from_stacks palindrome
+	rm -f *.o test_queue_from_stacks
